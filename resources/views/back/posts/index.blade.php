@@ -13,13 +13,13 @@
     <div class="col-sm-6">
         {{-- <h1 class="m-0">Dashboard</h1> --}}
         <a class="btn btn-success" href="{{ route('posts.create') }}">
-            Create new Post
+            Crear Nueva Publicacion
         </a>
     </div><!-- /.col -->
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Posts</li>
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item active">Publicacion</li>
         </ol>
     </div><!-- /.col -->
 
@@ -31,7 +31,7 @@
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Posts</h3>
+                <h3 class="card-title">Publicacion</h3>
             </div>
             <div class="card-body p-0">
                 <table class="table table-striped projects">
@@ -41,7 +41,7 @@
                                 #
                             </th>
                             <th style="width: 60%">
-                                Post title
+                                titulo publicacion
                             </th>
                             <th style="width: 39%">
                             </th>
@@ -66,12 +66,12 @@
                                     <a class="btn btn-primary btn-sm" href="{{ route('posts.view', $post->id) }}">
                                         <i class="fas fa-folder">
                                         </i>
-                                        View
+                                        Ver
                                     </a>
                                     <a class="btn btn-info btn-sm" href="{{ route('posts.edit', $post->id) }}">
                                         <i class="fas fa-pencil-alt">
                                         </i>
-                                        Edit
+                                        Editar
                                     </a>
                                     <form id="delete-post{{ $post->id }}" class="deletion-form"
                                         action="{{ route('posts.destroy', $post->id) }}" method="post">
@@ -81,7 +81,7 @@
                                             data-id="{{ $post->id }}">
                                             <i class="fas fa-trash">
                                             </i>
-                                            Delete
+                                            Eliminar
                                         </button>
                                     </form>
                                 </td>

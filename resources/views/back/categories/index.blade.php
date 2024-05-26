@@ -13,13 +13,13 @@
     <div class="col-sm-6">
         {{-- <h1 class="m-0">Dashboard</h1> --}}
         <a class="btn btn-success" href="{{ route('categories.create') }}">
-            Create new Category
+            Crear nueva categoria
         </a>
     </div><!-- /.col -->
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">categories</li>
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item active">categorias</li>
         </ol>
     </div><!-- /.col -->
 
@@ -31,7 +31,7 @@
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">categories</h3>
+                <h3 class="card-title">categorias</h3>
             </div>
             <div class="card-body p-0">
                 <table class="table table-striped projects">
@@ -41,7 +41,7 @@
                                 #
                             </th>
                             <th style="width: 60%">
-                                Category title
+                                Titulo de categoria
                             </th>
                             <th style="width: 39%">
                             </th>
@@ -64,7 +64,7 @@
                                     <a class="btn btn-info btn-sm" href="{{ route('categories.edit', $category->id) }}">
                                         <i class="fas fa-pencil-alt">
                                         </i>
-                                        Edit
+                                        Editar
                                     </a>
                                     <form class="deletion-form" action="{{ route('categories.destroy', $category->id) }}"
                                         method="post">
@@ -73,7 +73,7 @@
                                         <button type="submit" class="btn btn-danger btn-sm show-alert">
                                             <i class="fas fa-trash">
                                             </i>
-                                            Delete
+                                            Eliminar
                                         </button>
                                     </form>
                                 </td>

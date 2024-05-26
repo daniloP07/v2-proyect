@@ -42,7 +42,7 @@
                             class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="{{ route('dashboard') }}" class="nav-link">Home</a>
+                    <a href="{{ route('dashboard') }}" class="nav-link">Inicio</a>
                 </li>
                 <li>
                 <form method="POST" action="{{ route('logout') }}">
@@ -60,7 +60,7 @@
             <a href="{{ route('dashboard') }}" class="brand-link">
                 <img src="{{ asset('/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">My blog</span>
+                <span class="brand-text font-weight-light">Admin💀</span>
             </a>
 
             <!-- Sidebar -->
@@ -87,12 +87,12 @@
                             </a>
                         </li>
 
-                        <li class="nav-header">Blog</li>
+                        <li class="nav-header">Blog💀</li>
                         <li class="nav-item">
                             <a href="{{ route('posts.index') }}" class="nav-link">
                                 <i class="nav-icon fa fa-file-alt"></i>
                                 <p>
-                                    Posts
+                                    Publicaciones
                                 </p>
                             </a>
                         </li>
@@ -102,7 +102,7 @@
                                 <a href="{{ route('categories.index') }}" class="nav-link">
                                     <i class="nav-icon fa fa-tags"></i>
                                     <p>
-                                        Categories
+                                        Categorias
                                     </p>
                                 </a>
                             </li>
@@ -130,8 +130,8 @@
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-            All rights reserved.
+            <strong>Copyright &copy; 2024 <a href="https://adminlte.io">Creado Danilo&Fernando 🤑🤑</a>.</strong>
+            Todo lo derechos son reservados
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.1.0
             </div>

@@ -5,7 +5,7 @@
     </div><!-- /.col -->
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
             <li class="breadcrumb-item active">Post Add</li>
         </ol>
     </div><!-- /.col -->
@@ -28,7 +28,7 @@
                                 <label class="form-check-label" name="featured" for="exampleCheck1">Featured Post</label>
                             </div>
                             <div class="form-group">
-                                <label for="title">Post Title </label>
+                                <label for="title">Titulo de Publicacion </label>
                                 <input type="text" name="title" id="title" class="form-control" required>
                             </div>
                             <div class="form-group">
@@ -36,12 +36,12 @@
                                 <textarea id="excerpt" name="excerpt" class="form-control" rows="4" required></textarea>
                             </div>
                             <div class="form-group">
-                                <label for="description">Post Description</label>
+                                <label for="description">Descripción de la publicación</label>
                                 <textarea id="description" name="body" class="form-control" rows="4" required></textarea>
                             </div>
 
                             <div class="form-group">
-                                <label for="image">Post Image</label>
+                                <label for="image">Publicar imagen</label>
                                 <input type="file" name="image" class="form-control-file" id="image" required>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="category">Category</label>
+                                <label for="category">Categoria</label>
                                 <select id="category" name="category" class="form-control custom-select">
                                     <option selected disabled>Select one</option>
                                     @foreach ($categories as $category)

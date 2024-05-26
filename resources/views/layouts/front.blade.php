@@ -57,9 +57,9 @@
                 <h3 class="s-header__nav-heading h6">Navigate to</h3>
 
                 <ul class="s-header__nav">
-                    <li class="current"><a href="{{ route('home') }}" title="">Home</a></li>
+                    <li class="current"><a href="{{ route('home') }}" title="">Inicio</a></li>
                     <li class="has-children">
-                        <a href="#0" title="">Categories</a>
+                        <a href="#0" title="">Categorieass</a>
                         <ul class="sub-menu">
                             @foreach ($categories as $cat)
                                 <li><a href="{{ route('categories.view', $cat->id) }}">{{ $cat->title }}</a></li>
@@ -100,6 +100,12 @@
     @yield('content')
 
 
+<div>
+
+<center><h1>WElcome Garzon Huila</h1></center>
+</div>
+
+
     <!-- footer
     ================================================== -->
     <footer class="s-footer">
@@ -126,6 +132,8 @@
 
     </footer> <!-- end s-footer -->
 
+
+    
 
     <!-- Java Script
     ================================================== -->

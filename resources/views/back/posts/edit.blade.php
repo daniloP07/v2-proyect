@@ -15,8 +15,8 @@
     </div><!-- /.col -->
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Posts Edit</li>
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item active">Editat publicidad</li>
         </ol>
     </div><!-- /.col -->
 @endsection
@@ -34,7 +34,7 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="title">Post Title</label>
+                                <label for="title">Titulo de publicidad</label>
                                 <input type="text" name="title" id="title" class="form-control"
                                     value="{{ $post->title }}">
                             </div>
@@ -43,14 +43,14 @@
                                 <textarea id="resume" name="excerpt" class="form-control" rows="3">{{ $post->excerpt }}</textarea>
                             </div>
                             <div class="form-group">
-                                <label for="body">Post Description</label>
+                                <label for="body">Descripción de la publicación</label>
                                 <textarea id="body" name="body" class="form-control" rows="5">{{ $post->excerpt }}</textarea>
                             </div>
                             <div class="image-preview">
                                 <img src="{{ asset('images/' . $post->image) }}" alt="">
                             </div>
                             <div class="form-group">
-                                <label for="image">New Image</label>
+                                <label for="image">Nueva Imagen</label>
                                 <input type="file" name="image" class="form-control-file" id="image">
                             </div>
 
@@ -72,9 +72,9 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="category">Category</label>
+                                <label for="category">Categoria</label>
                                 <select id="category" name="category" class="form-control custom-select">
-                                    <option disabled>Select one</option>
+                                    <option disabled>Seleccione uno</option>
                                     @foreach ($categories as $category)
                                         <option value="{{ $category->id }}"
                                             {{ $post->categories->first() && $category->id == $post->categories->first()->id ? 'selected' : '' }}>
@@ -96,7 +96,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <a href="#" class="btn btn-secondary">Cancel</a>
+                    <a href="#" class="btn btn-secondary">Cancelar</a>
                     <input type="submit" value="Save Changes" class="btn btn-success float-right">
                 </div>
             </div>

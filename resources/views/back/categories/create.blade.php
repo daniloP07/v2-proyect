@@ -24,11 +24,11 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="title">Category Name</label>
+                                <label for="title">Nombre de Categoria</label>
                                 <input type="text" name="title" id="title" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label for="parent_id">Parent Category</label>
+                                <label for="parent_id">Parent Categoria</label>
                                 <select name="parent_id" id="parent_id" class="form-control">
                                     <option value="">Select Parent Category</option>
                                     @foreach ($categories as $category)
@@ -42,7 +42,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <a href="{{ route('dashboard') }}" class="btn btn-secondary">Cancel</a>
+                    <a href="{{ route('dashboard') }}" class="btn btn-secondary">Cancelar</a>
                     <input type="submit" value="Create" class="btn btn-success float-right">
                 </div>
             </div>

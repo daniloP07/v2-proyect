@@ -6,7 +6,7 @@
     <!--- basic page needs
         ================================================== -->
     <meta charset="utf-8">
-    <title>Calvin</title>
+    <title>Full-Patch</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -57,12 +57,12 @@
 
             <nav class="s-header__nav-wrap">
 
-                <h3 class="s-header__nav-heading h6">Navigate to</h3>
+                <h3 class="s-header__nav-heading h6">Navegar a</h3>
 
                 <ul class="s-header__nav">
-                    <li><a href="{{ route('home') }}" title="">Home</a></li>
+                    <li><a href="{{ route('home') }}" title="">Inicio</a></li>
                     <li class="has-children current">
-                        <a href="#0" title="">Categories</a>
+                        <a href="#0" title="">Categorias</a>
                         <ul class="sub-menu">
                             @foreach ($categories as $cat)
                                 <li><a href="{{ route('categories.view', $cat->id) }}">{{ $cat->title }}</a></li>
@@ -81,7 +81,7 @@
                     @endauth
                 </ul> <!-- end s-header__nav -->
 
-                <a href="#0" title="Close Menu" class="s-header__overlay-close close-mobile-menu">Close</a>
+                <a href="#0" title="Close Menu" class="s-header__overlay-close close-mobile-menu">Cerrar</a>
 
             </nav> <!-- end s-header__nav-wrap -->
 
@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="column">
                     <div class="ss-copyright">
-                        <span>© Copyright Calvin 2020</span>
+                        <span>© Copyright Full-Patch💀</span>
                         <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                     </div> <!-- end ss-copyright -->
                 </div>

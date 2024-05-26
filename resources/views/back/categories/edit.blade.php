@@ -34,7 +34,7 @@
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="title">Category Title</label>
+                                <label for="title">Titulo de Categoria</label>
                                 <input type="text" name="title" id="title" class="form-control"
                                     value="{{ $category->title }}">
                             </div>
